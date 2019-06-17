@@ -1,6 +1,4 @@
 # Write your code here.\
-
-<<<<<<< HEAD
 def line(deli)
   if deli.empty?
     puts "The line is currently empty."
@@ -24,7 +22,7 @@ def now_serving(deli)
     puts "Currently serving #{deli.first}."
     deli.shift
   end
-=======
+
 katz_deli = []
 
 def line(katz_deli)
@@ -43,5 +41,5 @@ end
 
 def now_serving
 
->>>>>>> c2476215a3daf0e967049965a26faff4fe819347
+
 end
